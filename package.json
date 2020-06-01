@@ -1,0 +1,52 @@
+{
+  "name": "sketchbook",
+  "version": "0.2.3",
+  "description": "Three.js and Cannon.js sandbox",
+  "keywords": [
+    "3d",
+    "threejs",
+    "cannonjs",
+    "game",
+    "engine",
+    "characters",
+    "vehicles",
+    "physics"
+  ],
+  "main": "build/sketchbook.min.js",
+  "scripts": {
+    "watch": "webpack --config webpack.dev.js --watch",
+    "build": "webpack --config webpack.prod.js",
+    "devserver": "webpack-dev-server --config webpack.common.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swift502/sketchbook.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swift502/sketchbook/issues"
+  },
+  "homepage": "https://github.com/swift502/sketchbook",
+  "devDependencies": {
+    "@types/cannon": "^0.1.4",
+    "@types/dat.gui": "^0.7.5",
+    "@types/stats": "^0.16.30",
+    "@types/three": "^0.103.2",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "lodash": "^4.17.15",
+    "three": "^0.109.0",
+    "three-gltf-loader": "^1.109.0",
+    "three-to-cannon": "^2.0.0"
+  }
+}
