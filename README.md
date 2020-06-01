@@ -1,2 +1,2 @@
 # Sketchbook-js
- The missing Sketchbook (last vanilla vesrion)
+ The missing JS Sketchbook (last vanilla vesrion)
