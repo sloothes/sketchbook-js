@@ -142,7 +142,7 @@ export class World
 
         // Variables
         let params = {
-            Pointer_Lock: true,
+            Pointer_Lock: false,
             Mouse_Sensitivity: 0.3,
             FPS_Limit: 60,
             Time_Scale: 1,
